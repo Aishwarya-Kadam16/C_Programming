@@ -1,6 +1,17 @@
 #include<stdio.h>
 #include<stdbool.h>
 
+/////////////////////////////////////////
+//
+//  Function Name : Check
+//  Description :   It is used to check whether number is divisible by 5 or not.
+//  Input :         Int
+//  Output :        bool
+//  Author :        Aishwarya Santosh Kadam
+//  Date :          31/10/2025
+//
+/////////////////////////////////////////
+
 bool Check(int iNo)
 {
     if((iNo % 5) == 0)
@@ -12,6 +23,12 @@ bool Check(int iNo)
         return false;
     }
 }
+
+////////////////////////////////////////////////
+//
+//  Entry Point Function of the Application
+//
+//////////////////////////////////////////////// 
 
 int main()
 {
@@ -33,4 +50,5 @@ int main()
     }
 
     return 0;
+
 }
