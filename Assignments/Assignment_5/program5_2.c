@@ -2,7 +2,7 @@
 
 /////////////////////////////////////////
 //
-//  Function Name : SumNonFact
+//  Function Name : FindMax
 //  Description :   It is used to find maximum of two numbers
 //  Input :         Int , Int
 //  Output :        Int
@@ -42,4 +42,5 @@ int main()
     printf("Maximum is : %d\n",result);
     return 0;
 }
+
 
