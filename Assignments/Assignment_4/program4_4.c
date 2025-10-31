@@ -28,6 +28,13 @@ int SumNonFact(int iNo)
     }
     return iFrequency;
 }
+
+////////////////////////////////////////////////
+//
+//  Entry Point Function of the Application
+//
+//////////////////////////////////////////////// 
+
 int main()
 {
     int iValue = 0;
@@ -41,4 +48,5 @@ int main()
     printf(" = %d",iRet);
 
     return 0;
+
 }
