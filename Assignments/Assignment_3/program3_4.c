@@ -5,7 +5,7 @@
 //  Function Name : DisplayConvert
 //  Description :   It is used for convert the case of character
 //  Input :         Int
-//  Output :        Int
+//  Output :        void
 //  Author :        Aishwarya Santosh Kadam
 //  Date :          31/10/2025
 //
@@ -39,4 +39,5 @@ int main()
     DisplayConvert(cValue);
 
     return 0;
+
 }
