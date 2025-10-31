@@ -5,7 +5,7 @@
 //  Function Name : Display
 //  Description :   It is used to print Hello if number is less than 10 , otherwise print Demo
 //  Input :         Int
-//  Output :        Int
+//  Output :        void
 //  Author :        Aishwarya Santosh Kadam
 //  Date :          31/10/2025
 //
@@ -35,4 +35,5 @@ int main()
     Display(iValue);
 
     return 0;
+
 }
