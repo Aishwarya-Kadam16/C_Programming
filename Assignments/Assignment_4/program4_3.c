@@ -23,6 +23,13 @@ void NonFact(int iNo)
         }
     }
 }
+
+////////////////////////////////////////////////
+//
+//  Entry Point Function of the Application
+//
+//////////////////////////////////////////////// 
+
 int main()
 {
     int iValue = 0;
@@ -33,4 +40,5 @@ int main()
     NonFact(iValue);
 
     return 0;
+
 }
