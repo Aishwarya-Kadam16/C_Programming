@@ -5,7 +5,7 @@
 //  Function Name : Display
 //  Description :   It is used to display first number in second number of times
 //  Input :         Int , Int
-//  Output :        Int
+//  Output :        void
 //  Author :        Aishwarya Santosh Kadam
 //  Date :          31/10/2025
 //
@@ -39,4 +39,5 @@ int main()
     Display(iValue,iCount);
 
     return 0;
+
 }
