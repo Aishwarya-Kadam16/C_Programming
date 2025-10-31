@@ -2,7 +2,7 @@
 
 /////////////////////////////////////////
 //
-//  Function Name : SumNonFact
+//  Function Name : CheckLeapYear
 //  Description :   It is used to check leap year
 //  Input :         Int
 //  Output :        void
@@ -39,4 +39,5 @@ int main()
     CheckLeapYear(yr);
 
     return 0;
+
 }
