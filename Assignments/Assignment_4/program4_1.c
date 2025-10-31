@@ -30,6 +30,13 @@ int MultFact(int iNo)
     return iFrequency;
     
 }
+
+////////////////////////////////////////////////
+//
+//  Entry Point Function of the Application
+//
+//////////////////////////////////////////////// 
+
 int main()
 {
     int iValue = 0;
@@ -46,4 +53,5 @@ int main()
    
 
     return 0;
+
 }
