@@ -5,7 +5,7 @@
 //  Function Name : DisplayFactor
 //  Description :   It is used to display even factor of that number
 //  Input :         Int
-//  Output :        Int
+//  Output :        void
 //  Author :        Aishwarya Santosh Kadam
 //  Date :          31/10/2025
 //
@@ -45,4 +45,5 @@ int main()
     DisplayFactor(iValue);
 
     return 0;
+
 }
