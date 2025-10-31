@@ -48,6 +48,13 @@ int FactDiff(int iNo)
     
     return iFrequ;
 }
+
+////////////////////////////////////////////////
+//
+//  Entry Point Function of the Application
+//
+//////////////////////////////////////////////// 
+
 int main()
 {
     int iValue = 0;
@@ -64,3 +71,4 @@ int main()
     return 0;
 
 }
+
