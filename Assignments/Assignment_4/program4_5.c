@@ -2,7 +2,7 @@
 
 /////////////////////////////////////////
 //
-//  Function Name : DisplayConvert
+//  Function Name : FactDiff
 //  Description :   It is used to return difference between summation of all its factors and non factors
 //  Input :         Int
 //  Output :        Int
@@ -62,4 +62,5 @@ int main()
 
 
     return 0;
+
 }
