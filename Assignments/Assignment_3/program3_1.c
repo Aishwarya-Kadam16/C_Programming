@@ -5,7 +5,7 @@
 //  Function Name : PrintEven
 //  Description :   It is used to print the even number
 //  Input :         Int
-//  Output :        Int
+//  Output :        void
 //  Author :        Aishwarya Santosh Kadam
 //  Date :          31/10/2025
 //
@@ -47,4 +47,5 @@ int main()
     PrintEven(iValue);
 
     return 0;
+
 }
