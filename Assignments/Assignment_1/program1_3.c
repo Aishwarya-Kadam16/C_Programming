@@ -23,6 +23,12 @@ void Display()
     }
 }
 
+////////////////////////////////////////////////
+//
+//  Entry Point Function of the Application
+//
+//////////////////////////////////////////////// 
+
 int main()
 {
     Display();
@@ -30,3 +36,4 @@ int main()
     return 0;
 
 }
+
