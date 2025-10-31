@@ -6,7 +6,7 @@
 //  Function Name : ChkEven
 //  Description :   It is used to check the number is even or odd
 //  Input :         Int
-//  Output :        -
+//  Output :        void
 //  Author :        Aishwarya Santosh Kadam
 //  Date :          31/10/2025
 //
@@ -43,4 +43,5 @@ int main()
     printf("The Number is Odd",bRet);
     }
     return 0;
+
 }
