@@ -42,4 +42,5 @@ int main()
     return 0;
 }
 
-//Time Complexity = O(n)
+//Time Complexity = O(1)
+
