@@ -42,5 +42,6 @@ int main()
     printf("Area of Rectangle is %f ",dRet);
 
     return 0;
-
 }
+
+//Time Complexity = O(1)
