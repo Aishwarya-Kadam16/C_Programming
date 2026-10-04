@@ -1,2 +1,3 @@
 # C_Programming
-"Programs &amp; Assignments for Logic Building Batch - C"
+
+" C programming practice and classwork focused on building programming fundamentals, logic, and problem-solving skills. "
