@@ -1,0 +1,37 @@
+#include<stdio.h>       //Input / output
+#include<stdbool.h>     //Bool data type use karanyasathi
+
+bool CheckEvenOdd(int iNo)
+{
+    if((iNo % 2) == 0)
+    {
+        return true;
+    }
+
+    else
+    {
+        return false;
+    }
+}
+
+int main()
+{
+    int iValue = 0;
+    bool bRet = false;
+
+    printf("Enter the number : \n");
+    scanf("%d",&iValue);
+
+    bRet = CheckEvenOdd(iValue);      //call by value
+
+    if(bRet == true)
+    {
+        printf("%d is even number \n",iValue);
+    }
+
+    else
+    {
+        printf("%d is odd number \n",iValue);
+    }
+    return 0;
+}
