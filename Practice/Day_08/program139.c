@@ -1,0 +1,76 @@
+#include<stdio.h>
+#include<stdlib.h>
+#include<stdbool.h>
+typedef int * IPTR;
+
+bool linearSearch(int Arr[], int iSize, int iNo)
+{
+    int iCnt = 0;
+
+    for(iCnt = 0;iCnt<iSize;iCnt++)
+    {
+        if(Arr[iCnt] == iNo)
+        {    
+            break;
+        }
+    }
+
+    if(iCnt == iSize)
+    {
+        return false;
+    }
+
+    else
+    {
+        return true;
+    }
+    
+}           //Time Complexity =  >O(N) or  O(N)[if element is not present]
+
+int main()
+{
+    int iLength = 0, iCnt = 0, iValue = 0;          //Auto storage class
+    
+    IPTR iPtr = NULL;
+    bool bRet = false;
+
+    printf("Enter the number of elements : ");
+    scanf("%d",&iLength);
+
+    //Step 1 : Allocate the memory
+    iPtr = (IPTR)malloc(iLength * sizeof(int));
+
+    if(NULL == iPtr)
+    {
+        printf("Unable to the allocate memory");
+        return -1;
+    }
+
+    printf("Enter the values : ");
+    for(iCnt = 0;iCnt<iLength;iCnt++)
+    {
+        scanf("%d",&iPtr[iCnt]);
+    }
+
+    printf("Enter the number to search : ");
+    scanf("%d",&iValue);
+
+    //Step 2 : Use the memory
+    bRet = linearSearch(iPtr, iLength,iValue);
+    
+    if(bRet == true)
+    {
+        printf("%d is present in the data \n",iValue);
+    }
+
+    else
+    {
+        printf("%d is not present in the data \n",iValue);
+    }
+
+    //Step 3 : Free the memory
+    free(iPtr);
+
+    return 0;
+
+}
